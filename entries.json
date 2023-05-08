@@ -1,0 +1,78 @@
+[
+  {
+    "name": "0All",
+    "hiragana": "",
+    "type": "-",
+    "code": "-",
+    "kanji": "-",
+    "translation": "-",
+    "misc": "-"
+  },
+  {
+    "name": "0min",
+    "hiragana": "",
+    "type": "-",
+    "translation": "-"
+  },
+  {
+    "name": "hai",
+    "hiragana": "はい",
+    "type": "In",
+    "translation": "Ja, Ihre Annahme ist richtig!"
+  },
+  {
+    "name": "iie",
+    "hiragana": "いいえ",
+    "type": "In",
+    "translation": "Nein, Ihre Annahme ist nicht richtig!"
+  },
+  {
+    "name": "ima",
+    "hiragana": "いま",
+    "type": "N/Ad",
+    "translation": "jetzt"
+  },
+  {
+    "name": "ka",
+    "hiragana": "か",
+    "type": "Pe",
+    "translation": "(ka steht am Ende des Fragesatzes.)"
+  },
+  {
+    "name": "made",
+    "hiragana": "まで",
+    "type": "Adpp",
+    "translation": "bis"
+  },
+  {
+    "name": "motto",
+    "hiragana": "もっと",
+    "type": "Ad",
+    "translation": "viel, sehr"
+  },
+  {
+    "name": "sekaijû de",
+    "hiragana": "せかいじゅう で",
+    "type": "Ad",
+    "translation": "in der ganzen Welt"
+  },
+  {
+    "name": "taihen",
+    "hiragana": "たいへん",
+    "type": "Ad",
+    "translation": "sehr"
+  },
+  {
+    "name": "yori",
+    "hiragana": "より",
+    "type": "?",
+    "translation": "als, im Vergleich zu",
+    "misc": "Steht vor einem Adjektiv und wird benutzt um zwei Dinge zu vergleichen"
+  },
+  {
+    "name": "yûmei na",
+    "hiragana": "ゆうめいな",
+    "type": "A",
+    "translation": "bekannt, berühmt"
+  }
+]
