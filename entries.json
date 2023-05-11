@@ -1,18 +1,108 @@
 [
   {
-    "name": "0All",
+    "name": "",
     "hiragana": "",
-    "type": "-",
-    "code": "-",
-    "kanji": "-",
-    "translation": "-",
-    "misc": "-"
+    "type": "",
+    "code": "",
+    "kanji": "",
+    "translation": "",
+    "chapter": "",
+    "misc": ""
   },
   {
-    "name": "0min",
+    "name": "",
     "hiragana": "",
-    "type": "-",
-    "translation": "-"
+    "type": "",
+    "translation": ""
+  },
+  {
+    "name": "-arimsaen",
+    "hiragana": "ありません",
+    "misc": "Oft die formelle negierung"
+  },
+  {
+    "name": "-nai",
+    "hiragana": "ない",
+    "misc": "Oft die informelle negierung"
+  },
+  {
+    "name": "anata",
+    "hiragana": "あなた",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "ano ko",
+    "hiragana": "あの こ",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "atashi",
+    "hiragana": "あたし",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "boku",
+    "hiragana": "ぼく",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "da",
+    "hiragana": "だ",
+    "type": "Kop",
+    "translation": "Plain from 2",
+    "chapter": "G04",
+    "misc": "A wa B da: A ist b"
+  },
+  {
+    "name": "dare",
+    "hiragana": "だれ",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "de aru",
+    "hiragana": "で ある",
+    "type": "Kop",
+    "translation": "Plain form 1",
+    "chapter": "G04",
+    "misc": "A wa B de aru: A ist b"
+  },
+  {
+    "name": "desu",
+    "hiragana": "です",
+    "type": "Kop",
+    "translation": "Polite form",
+    "chapter": "G04",
+    "misc": "A wa B desu: A ist b"
+  },
+  {
+    "name": "donata",
+    "hiragana": "どなた",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "dono hito",
+    "hiragana": "どの ひと",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "ga",
+    "hiragana": "が",
+    "type": "P",
+    "misc": "Kann das Subject angeben."
   },
   {
     "name": "hai",
@@ -36,7 +126,29 @@
     "name": "ka",
     "hiragana": "か",
     "type": "Pe",
-    "translation": "(ka steht am Ende des Fragesatzes.)"
+    "translation": "(ka steht am Ende des Fragesatzes.)",
+    "chapter": "G04"
+  },
+  {
+    "name": "kanojo",
+    "hiragana": "かのじょ",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "kare",
+    "hiragana": "かれ",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "kimi",
+    "hiragana": "きみ",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
   },
   {
     "name": "made",
@@ -48,7 +160,22 @@
     "name": "motto",
     "hiragana": "もっと",
     "type": "Ad",
-    "translation": "viel, sehr"
+    "translation": "viel, sehr",
+    "chapter": "G15"
+  },
+  {
+    "name": "ni",
+    "hiragana": "に",
+    "type": "P",
+    "chapter": "G05",
+    "misc": "Kann den 3. Fall angeben"
+  },
+  {
+    "name": "no",
+    "hiragana": "の",
+    "type": "P",
+    "chapter": "G05",
+    "misc": "Kann den 2. Fall angeben"
   },
   {
     "name": "sekaijû de",
@@ -63,10 +190,45 @@
     "translation": "sehr"
   },
   {
+    "name": "wa",
+    "hiragana": "は",
+    "type": "P",
+    "misc": "Kann das Subject angeben."
+  },
+  {
+    "name": "wa",
+    "hiragana": "は",
+    "type": "P",
+    "chapter": "G13",
+    "misc": "Kann die Topic angeben."
+  },
+  {
+    "name": "washi",
+    "hiragana": "わし",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "watashi",
+    "hiragana": "わたし",
+    "type": "N",
+    "translation": "Personal nomina",
+    "chapter": "G05"
+  },
+  {
+    "name": "wo",
+    "hiragana": "を",
+    "type": "P",
+    "chapter": "G05",
+    "misc": "Kann den 4. Fall angeben"
+  },
+  {
     "name": "yori",
     "hiragana": "より",
-    "type": "?",
+    "type": "?/P",
     "translation": "als, im Vergleich zu",
+    "chapter": "G15",
     "misc": "Steht vor einem Adjektiv und wird benutzt um zwei Dinge zu vergleichen"
   },
   {

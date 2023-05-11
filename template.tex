@@ -1,28 +1,33 @@
 \documentclass{article}
 \usepackage{CJKutf8}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=30mm,
+ top=30mm,
+ }
 
 \begin{document}
 \begin{CJK}{UTF8}{min}
+  
+\section*{Mini Wörterbuch}
 
-\section*{Dictionary}
-
-\begin{itemize}
 {% for entry in entries %}
-  \item {{ entry.name }} ({{ entry.hiragana }}) \\
-        \textbf{Wortart:} {{ entry.type }} \\
-        {% if entry.get('kanji') %}
-        \textbf{Kanji:} {{ entry.kanji }} \\
+\noindent \textbf{ {{-entry.name}}} {{entry.hiragana}} \textit{ {{-entry.type}}} {{entry.translation}} 
+        {% if entry.chapter %}
+        \textbf{ {{-entry.chapter}}} 
         {% endif %}
-        {% if entry.get('code') %}
-        \textbf{Code:} {{ entry.code }} \\
+        {% if entry.get('kanji') or entry.get('code') %}
+        \\
+        \hspace*{0.5cm}\textbf{Kanji:} {{ entry.kanji }} \textbf{Code:} {{ entry.code }}
         {% endif %}
-        \textbf{Übersetzung:} {{ entry.translation }}
         {% if entry.get('misc') %}
         \\
-        \textbf{Bemerkung:} {{ entry.misc }}
+        \hspace*{0.5cm}\textbf{Info:} {{ entry.misc }}
         {% endif %}
+        \\
 {% endfor %}
-\end{itemize}
 
 \end{CJK}
 \end{document}

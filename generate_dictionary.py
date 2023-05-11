@@ -1,6 +1,7 @@
 import json
 from jinja2 import Environment, FileSystemLoader
 import subprocess
+import jaconv
 
 # Load JSON data
 with open("entries.json", "r", encoding="utf-8") as f:
@@ -8,6 +9,10 @@ with open("entries.json", "r", encoding="utf-8") as f:
 
 # Sort entries based on the 'name' attribute
 sorted_entries = sorted(entries, key=lambda x: x['name'])
+
+for entry in sorted_entries:
+    if(not entry["hiragana"] and entry["name"]):
+        entry["hiragana"] = jaconv.alphabet2kana(entry["name"])
 
 # Overwrite the original JSON file with the sorted entries
 with open("entries.json", "w", encoding="utf-8") as f:
