@@ -1,7 +1,6 @@
 [
   {
     "name": "",
-    "hiragana": "",
     "type": "",
     "code": "",
     "kanji": "",
@@ -11,7 +10,6 @@
   },
   {
     "name": "",
-    "hiragana": "",
     "type": "",
     "translation": ""
   },
@@ -24,6 +22,18 @@
     "name": "-nai",
     "hiragana": "ない",
     "misc": "Oft die informelle negierung"
+  },
+  {
+    "name": "-zutsu",
+    "chapter": "G23",
+    "translation": "Counter + zutsu: je X Stück",
+    "hiragana": "ーずつ"
+  },
+  {
+    "name": "amari",
+    "type": "Ad",
+    "translation": "+ neg. = nicht so/sehr/so viel",
+    "hiragana": "あまり"
   },
   {
     "name": "anata",
@@ -54,6 +64,13 @@
     "chapter": "G05"
   },
   {
+    "name": "chokusetsu",
+    "type": "Ad",
+    "translation": "direkt",
+    "chapter": "G29",
+    "hiragana": "ちょくせつ"
+  },
+  {
     "name": "da",
     "hiragana": "だ",
     "type": "Kop",
@@ -69,12 +86,54 @@
     "chapter": "G05"
   },
   {
+    "name": "datta",
+    "type": "Kop",
+    "chapter": "G30",
+    "translation": "Plain pos. desu",
+    "hiragana": "だった"
+  },
+  {
+    "name": "de",
+    "type": "P",
+    "chapter": "G17",
+    "misc": "Ort + de: stattfinden",
+    "hiragana": "で"
+  },
+  {
+    "name": "de",
+    "type": "P",
+    "chapter": "G29",
+    "misc": "N + de: Verkehrsmittel",
+    "hiragana": "で"
+  },
+  {
     "name": "de aru",
     "hiragana": "で ある",
     "type": "Kop",
     "translation": "Plain form 1",
     "chapter": "G04",
     "misc": "A wa B de aru: A ist b"
+  },
+  {
+    "name": "de wa arimasen deshita",
+    "type": "Kop",
+    "chapter": "G30",
+    "translation": "Polite neg. desu",
+    "hiragana": "で わ ありません でした"
+  },
+  {
+    "name": "de wa nakatta",
+    "type": "Kop",
+    "chapter": "G30",
+    "translation": "Plain neg. desu",
+    "hiragana": "で わ なかった"
+  },
+  {
+    "name": "deshita",
+    "type": "Kop",
+    "chapter": "G30",
+    "translation": "Polite pos. desu",
+    "hiragana": "でした"
   },
   {
     "name": "desu",
@@ -99,10 +158,17 @@
     "chapter": "G05"
   },
   {
+    "name": "e",
+    "type": "P",
+    "chapter": "G76",
+    "misc": "Kann den Ort angeben",
+    "hiragana": "え"
+  },
+  {
     "name": "ga",
     "hiragana": "が",
     "type": "P",
-    "misc": "Kann das Subject angeben."
+    "misc": "N + ga: Kann das (betonte) Subject angeben."
   },
   {
     "name": "hai",
@@ -123,10 +189,17 @@
     "translation": "jetzt"
   },
   {
+    "name": "isoide",
+    "type": "Ad",
+    "translation": "eilig",
+    "chapter": "G29",
+    "hiragana": "いそいで"
+  },
+  {
     "name": "ka",
     "hiragana": "か",
     "type": "Pe",
-    "translation": "(ka steht am Ende des Fragesatzes.)",
+    "translation": "(steht am Ende des Fragesatzes) ?",
     "chapter": "G04"
   },
   {
@@ -137,11 +210,25 @@
     "chapter": "G05"
   },
   {
+    "name": "kanâ",
+    "type": "Pe",
+    "translation": "(steht am Ende des Satzes) ? (umgangssprachlich)",
+    "chapter": "G23",
+    "hiragana": "かなあ"
+  },
+  {
     "name": "kare",
     "hiragana": "かれ",
     "type": "N",
     "translation": "Personal nomina",
     "chapter": "G05"
+  },
+  {
+    "name": "kichin to",
+    "type": "Ad",
+    "translation": "ordentlich",
+    "chapter": "G29",
+    "hiragana": "きちん と"
   },
   {
     "name": "kimi",
@@ -151,10 +238,25 @@
     "chapter": "G05"
   },
   {
+    "name": "kossori",
+    "type": "Ad",
+    "translation": "heimlich",
+    "chapter": "G29",
+    "hiragana": "こっそり"
+  },
+  {
     "name": "made",
     "hiragana": "まで",
     "type": "Adpp",
     "translation": "bis"
+  },
+  {
+    "name": "mo",
+    "type": "P",
+    "translation": "auch",
+    "chapter": "G23",
+    "misc": "Kann wa/ga/wo ersetzen oder hinter anderen Partikeln stehen",
+    "hiragana": "も"
   },
   {
     "name": "motto",
@@ -164,18 +266,58 @@
     "chapter": "G15"
   },
   {
+    "name": "ne",
+    "type": "Pe",
+    "translation": "(steht am Ende des Satzes), nicht wahr?",
+    "chapter": "G23",
+    "hiragana": "ね"
+  },
+  {
     "name": "ni",
     "hiragana": "に",
     "type": "P",
     "chapter": "G05",
-    "misc": "Kann den 3. Fall angeben"
+    "misc": "N + ni: Kann den 3. Fall angeben"
+  },
+  {
+    "name": "ni",
+    "hiragana": "に",
+    "type": "P",
+    "chapter": "G29",
+    "misc": "Kann den Zielort angeben"
+  },
+  {
+    "name": "ni",
+    "hiragana": "に",
+    "type": "P",
+    "chapter": "G17",
+    "misc": "N + ni: Kann den Ort angeben"
+  },
+  {
+    "name": "ni",
+    "hiragana": "に",
+    "type": "P",
+    "chapter": "G12",
+    "misc": "Na Adj + ni: Kann die Adverbiale Form von Na - Adjektiven angeben"
+  },
+  {
+    "name": "ni",
+    "hiragana": "に",
+    "type": "P",
+    "misc": "N + ni: Kann die Zeit angeben"
   },
   {
     "name": "no",
     "hiragana": "の",
     "type": "P",
     "chapter": "G05",
-    "misc": "Kann den 2. Fall angeben"
+    "misc": "N + no: Kann den 2. Fall angeben"
+  },
+  {
+    "name": "no tokoro ni",
+    "chapter": "G29",
+    "translation": "Zu einer Person gehen",
+    "hiragana": "の ところ に"
   },
   {
     "name": "sekaijû de",
@@ -188,6 +330,41 @@
     "hiragana": "たいへん",
     "type": "Ad",
     "translation": "sehr"
+  },
+  {
+    "name": "to",
+    "type": "-",
+    "chapter": "G23",
+    "translation": "N + to + N: Und",
+    "misc": "Nimmt den Typ des Partikels an welches es ersetzt",
+    "hiragana": "と"
+  },
+  {
+    "name": "to",
+    "type": "P",
+    "chapter": "G23",
+    "translation": "Counter + to: Echtes Und",
+    "hiragana": "と"
+  },
+  {
+    "name": "to",
+    "type": "P",
+    "chapter": "G29",
+    "translation": "N + to: Kann Ad mit bedeuten",
+    "hiragana": "と"
+  },
+  {
+    "name": "totemo",
+    "type": "Ad",
+    "translation": "sehr",
+    "hiragana": "とても"
+  },
+  {
+    "name": "wa",
+    "hiragana": "は",
+    "type": "P",
+    "chapter": "G17",
+    "misc": "Kann nach Partikel kommen, oder sie ersetzen, um sie zu betonen"
   },
   {
     "name": "wa",
@@ -217,11 +394,39 @@
     "chapter": "G05"
   },
   {
+    "name": "waza to",
+    "type": "Ad",
+    "translation": "absichtlich",
+    "chapter": "G29",
+    "hiragana": "わざ と"
+  },
+  {
     "name": "wo",
     "hiragana": "を",
     "type": "P",
-    "chapter": "G05",
-    "misc": "Kann den 4. Fall angeben"
+    "chapter": "G26",
+    "misc": "Kann den 4. Fall/das Object von Vt angeben"
+  },
+  {
+    "name": "wo",
+    "hiragana": "を",
+    "type": "P",
+    "chapter": "G29",
+    "misc": "Kann bei Vi eine Ortsangabe sein"
+  },
+  {
+    "name": "ya",
+    "type": "P",
+    "chapter": "G23",
+    "translation": "N + ya + N: Und",
+    "hiragana": "や"
+  },
+  {
+    "name": "yo",
+    "type": "Pe",
+    "translation": "(steht am Ende des Satzes) !",
+    "chapter": "G23",
+    "hiragana": "よ"
   },
   {
     "name": "yori",
@@ -230,6 +435,13 @@
     "translation": "als, im Vergleich zu",
     "chapter": "G15",
     "misc": "Steht vor einem Adjektiv und wird benutzt um zwei Dinge zu vergleichen"
+  },
+  {
+    "name": "yukkuri",
+    "type": "Ad",
+    "translation": "langsam",
+    "chapter": "G29",
+    "hiragana": "ゆっくり"
   },
   {
     "name": "yûmei na",

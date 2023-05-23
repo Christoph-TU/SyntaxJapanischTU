@@ -11,7 +11,7 @@ with open("entries.json", "r", encoding="utf-8") as f:
 sorted_entries = sorted(entries, key=lambda x: x['name'])
 
 for entry in sorted_entries:
-    if(not entry["hiragana"] and entry["name"]):
+    if not entry.get("hiragana") and entry.get("name"):
         entry["hiragana"] = jaconv.alphabet2kana(entry["name"])
 
 # Overwrite the original JSON file with the sorted entries
