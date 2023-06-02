@@ -19,9 +19,57 @@
     "misc": "Oft die formelle negierung"
   },
   {
+    "name": "-arimsaen deshita",
+    "hiragana": "ありません",
+    "chapter": "G30",
+    "misc": "V2 + arimsaen deshita = Vergangenheitsform polite negative"
+  },
+  {
+    "name": "-da",
+    "chapter": "G30",
+    "misc": "V2b + da = Vergangenheitsform plain",
+    "hiragana": "ーだ"
+  },
+  {
+    "name": "-de",
+    "chapter": "G32",
+    "misc": "Kann die te-Form von Verben/Adjektiven sein",
+    "hiragana": "ーで"
+  },
+  {
+    "name": "-mashita",
+    "chapter": "G30",
+    "misc": "V2 + da = Vergangenheitsform polite",
+    "hiragana": "ーました"
+  },
+  {
     "name": "-nai",
     "hiragana": "ない",
     "misc": "Oft die informelle negierung"
+  },
+  {
+    "name": "-nakatta",
+    "chapter": "G30",
+    "misc": "V1 + nakatta = Vergangenheitsform plain negative",
+    "hiragana": "ーなかった"
+  },
+  {
+    "name": "-ta",
+    "chapter": "G30",
+    "misc": "V2b + ta = Vergangenheitsform plain",
+    "hiragana": "ーた"
+  },
+  {
+    "name": "-tari",
+    "chapter": "G32",
+    "misc": "-tari -tari suru = Aufzählung von Verben",
+    "hiragana": "ーたり"
+  },
+  {
+    "name": "-te",
+    "chapter": "G32",
+    "misc": "Kann die te-Form von Verben/Adjektiven sein",
+    "hiragana": "ーて"
   },
   {
     "name": "-zutsu",
@@ -101,6 +149,13 @@
   },
   {
     "name": "de",
+    "type": "Kop",
+    "chapter": "G32",
+    "translation": "te-Form von da/de aru",
+    "hiragana": "で"
+  },
+  {
+    "name": "de",
     "type": "P",
     "chapter": "G29",
     "misc": "N + de: Verkehrsmittel",
@@ -113,6 +168,13 @@
     "translation": "Plain form 1",
     "chapter": "G04",
     "misc": "A wa B de aru: A ist b"
+  },
+  {
+    "name": "de atte",
+    "type": "Kop",
+    "translation": "te-Form von de aru",
+    "chapter": "G32",
+    "hiragana": "で あって"
   },
   {
     "name": "de wa arimasen deshita",
@@ -168,13 +230,20 @@
     "name": "ga",
     "hiragana": "が",
     "type": "P",
-    "misc": "N + ga: Kann das (betonte) Subject angeben."
+    "misc": "N + ga: Kann das (betonte) Subjekt angeben, oder in Nebensätzen oder in einer K3 das normale Subjekt bestimmen"
   },
   {
     "name": "hai",
     "hiragana": "はい",
     "type": "In",
     "translation": "Ja, Ihre Annahme ist richtig!"
+  },
+  {
+    "name": "i-",
+    "type": "Vi/K3",
+    "translation": "Kann eine Form von iru sein",
+    "hiragana": "いー",
+    "misc": "te-Form + iru = Eigene Übersetzung G33"
   },
   {
     "name": "iie",
@@ -243,6 +312,12 @@
     "translation": "heimlich",
     "chapter": "G29",
     "hiragana": "こっそり"
+  },
+  {
+    "name": "mada",
+    "type": "Ad",
+    "translation": "noch; bis jetzt; nur",
+    "hiragana": "まだ"
   },
   {
     "name": "made",
@@ -326,6 +401,20 @@
     "translation": "in der ganzen Welt"
   },
   {
+    "name": "shi-",
+    "type": "Vt",
+    "translation": "machen",
+    "misc": "Kann eine Form von suru sein",
+    "hiragana": "しー"
+  },
+  {
+    "name": "suru",
+    "type": "Vt",
+    "translation": "machen",
+    "misc": "N* + suru = ein eigenes Prädikat",
+    "hiragana": "する"
+  },
+  {
     "name": "taihen",
     "hiragana": "たいへん",
     "type": "Ad",
@@ -352,6 +441,12 @@
     "chapter": "G29",
     "translation": "N + to: Kann Ad mit bedeuten",
     "hiragana": "と"
+  },
+  {
+    "name": "tokoro",
+    "chapter": "G33",
+    "translation": "-te iru tokoro desu = gerade unterwegs",
+    "hiragana": "ところ"
   },
   {
     "name": "totemo",
