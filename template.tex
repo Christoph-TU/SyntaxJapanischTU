@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{changepage}
 \usepackage{CJKutf8}
 \usepackage{geometry}
  \geometry{
@@ -14,19 +15,18 @@
 \section*{Mini Wörterbuch}
 
 {% for entry in entries %}
-\noindent \textbf{ {{-entry.name}}} {{entry.hiragana}} \textit{ {{-entry.type}}} {{entry.translation}} 
-        {% if entry.chapter %}
-        \textbf{ {{-entry.chapter}}} 
+\textbf{ {{-entry.name}}} {{entry.hiragana}} \textit{ {{-entry.type}}} {{entry.translation}} {{ "\\textbf{" ~ entry.chapter ~ "}" if entry.chapter }}
+        {% if entry.get('kanji') or entry.get('code') or entry.get('misc') %}
+                \begin{adjustwidth}{0.5cm}{}
+                {% if entry.get('kanji') or entry.get('code') %}
+                        \textbf{Kanji:} {{ entry.kanji }} \textbf{Code:} {{ entry.code }}
+                        {{ "\\" if entry.get('misc') }}
+                {% endif %}
+                {{ "\\textbf{Info:} " ~ entry.misc if entry.get('misc') }}
+                \end{adjustwidth}
+        {% else %}
+                \\
         {% endif %}
-        {% if entry.get('kanji') or entry.get('code') %}
-        \\
-        \hspace*{0.5cm}\textbf{Kanji:} {{ entry.kanji }} \textbf{Code:} {{ entry.code }}
-        {% endif %}
-        {% if entry.get('misc') %}
-        \\
-        \hspace*{0.5cm}\textbf{Info:} {{ entry.misc }}
-        {% endif %}
-        \\
 {% endfor %}
 
 \end{CJK}

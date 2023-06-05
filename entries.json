@@ -39,7 +39,7 @@
   {
     "name": "-mashita",
     "chapter": "G30",
-    "misc": "V2 + da = Vergangenheitsform polite",
+    "misc": "V2a + mashita = Vergangenheitsform polite",
     "hiragana": "ーました"
   },
   {
@@ -52,6 +52,11 @@
     "chapter": "G30",
     "misc": "V1 + nakatta = Vergangenheitsform plain negative",
     "hiragana": "ーなかった"
+  },
+  {
+    "name": "-san",
+    "translation": "höfliches Suffix (Herr/Frau)",
+    "hiragana": "ーさん"
   },
   {
     "name": "-ta",
@@ -78,6 +83,19 @@
     "hiragana": "ーずつ"
   },
   {
+    "name": "aa",
+    "translation": "derartig, auf jene Weise",
+    "chapter": "G06",
+    "hiragana": "ああ"
+  },
+  {
+    "name": "achira",
+    "type": "N",
+    "translation": "jene Richtung dort, jene Person dort",
+    "chapter": "G06",
+    "hiragana": "あちら"
+  },
+  {
     "name": "amari",
     "type": "Ad",
     "translation": "+ neg. = nicht so/sehr/so viel",
@@ -91,11 +109,52 @@
     "chapter": "G05"
   },
   {
+    "name": "anna",
+    "type": "Nm",
+    "translation": "so ein/e (N, etwas was weiter zurückliegt)",
+    "chapter": "G06",
+    "hiragana": "こんな"
+  },
+  {
+    "name": "anna ni",
+    "translation": "in jenem Ausmaß/ hohen Grad, auf jene Weise",
+    "chapter": "G06",
+    "hiragana": "あんな に"
+  },
+  {
+    "name": "ano",
+    "type": "Nm",
+    "translation": "jene/r/s dort",
+    "chapter": "G06",
+    "hiragana": "あの"
+  },
+  {
     "name": "ano ko",
     "hiragana": "あの こ",
     "type": "N",
     "translation": "Personal nomina",
     "chapter": "G05"
+  },
+  {
+    "name": "are",
+    "type": "N",
+    "translation": "jenes Objekt dort",
+    "chapter": "G06",
+    "hiragana": "あれ"
+  },
+  {
+    "name": "arera",
+    "type": "N",
+    "translation": "jenes Objekte dort",
+    "chapter": "G06",
+    "hiragana": "あれら"
+  },
+  {
+    "name": "asoko",
+    "type": "N",
+    "translation": "jener Ort/Platz dort, jene Stelle dort",
+    "chapter": "G06",
+    "hiragana": "あそこ"
   },
   {
     "name": "atashi",
@@ -130,8 +189,8 @@
     "name": "dare",
     "hiragana": "だれ",
     "type": "N",
-    "translation": "Personal nomina",
-    "chapter": "G05"
+    "translation": "Wer?",
+    "chapter": "G07"
   },
   {
     "name": "datta",
@@ -206,11 +265,45 @@
     "misc": "A wa B desu: A ist b"
   },
   {
+    "name": "dochira",
+    "type": "N",
+    "translation": "welche Richtung?, welche Person?",
+    "chapter": "G06",
+    "hiragana": "どちら"
+  },
+  {
+    "name": "doko",
+    "type": "N",
+    "translation": "welcher Ort/Platz?, welche Stelle?",
+    "chapter": "G06/G07",
+    "hiragana": "どこ"
+  },
+  {
     "name": "donata",
     "hiragana": "どなた",
     "type": "N",
-    "translation": "Personal nomina",
-    "chapter": "G05"
+    "translation": "Wer? (höflich)",
+    "chapter": "G07"
+  },
+  {
+    "name": "donna",
+    "type": "Nm",
+    "translation": "was für ein/e/n (N, man fragt nach einem Eigenschaftswort oder nach der Art eines Objekt/einer Person)",
+    "chapter": "G06",
+    "hiragana": "どんな"
+  },
+  {
+    "name": "donna ni",
+    "translation": "in welchem Ausmaß/ Grad, auf welche Weise",
+    "chapter": "G06",
+    "hiragana": "どんな に"
+  },
+  {
+    "name": "dono",
+    "type": "Nm",
+    "translation": "welche/r/s",
+    "chapter": "G06/G07",
+    "hiragana": "どの"
   },
   {
     "name": "dono hito",
@@ -220,9 +313,22 @@
     "chapter": "G05"
   },
   {
+    "name": "doo",
+    "translation": "wie? auf welche Weise?",
+    "chapter": "G06/G07",
+    "hiragana": "どお"
+  },
+  {
+    "name": "dore",
+    "type": "N",
+    "translation": "welches Objekt?",
+    "chapter": "G06/G07",
+    "hiragana": "どれ"
+  },
+  {
     "name": "e",
     "type": "P",
-    "chapter": "G76",
+    "chapter": "G29",
     "misc": "Kann den Ort angeben",
     "hiragana": "え"
   },
@@ -230,6 +336,7 @@
     "name": "ga",
     "hiragana": "が",
     "type": "P",
+    "chapter": "G34",
     "misc": "N + ga: Kann das (betonte) Subjekt angeben, oder in Nebensätzen oder in einer K3 das normale Subjekt bestimmen"
   },
   {
@@ -239,11 +346,40 @@
     "translation": "Ja, Ihre Annahme ist richtig!"
   },
   {
+    "name": "heta na",
+    "type": "Nm",
+    "translation": "ungeschickt",
+    "chapter": "G13",
+    "misc": "Besonderes Adjektive, verlangt Topic",
+    "hiragana": "へた な"
+  },
+  {
+    "name": "hodo",
+    "translation": "hodo + neg: A ist nicht so Adj wie B",
+    "chapter": "G15",
+    "hiragana": "ほど"
+  },
+  {
+    "name": "hoshii",
+    "type": "Nm",
+    "translation": "wünschenswert",
+    "chapter": "G13",
+    "misc": "Besonderes Adjektive, verlangt Topic",
+    "hiragana": "ほしい"
+  },
+  {
     "name": "i-",
     "type": "Vi/K3",
     "translation": "Kann eine Form von iru sein",
     "hiragana": "いー",
     "misc": "te-Form + iru = Eigene Übersetzung G33"
+  },
+  {
+    "name": "ichiban",
+    "type": "N/Ad",
+    "translation": "am meisten",
+    "chapter": "G15",
+    "hiragana": "いちばん"
   },
   {
     "name": "iie",
@@ -263,6 +399,36 @@
     "translation": "eilig",
     "chapter": "G29",
     "hiragana": "いそいで"
+  },
+  {
+    "name": "itai",
+    "type": "Nm",
+    "translation": "schmwerzhaft",
+    "chapter": "G13",
+    "misc": "Besonderes Adjektive, verlangt Topic",
+    "hiragana": "いたい"
+  },
+  {
+    "name": "itsumo",
+    "type": "Nm",
+    "misc": "immer",
+    "hiragana": "いつも"
+  },
+  {
+    "name": "iya na",
+    "type": "Nm",
+    "translation": "unerträglich",
+    "chapter": "G13",
+    "misc": "Besonderes Adjektive, verlangt Topic",
+    "hiragana": "いや な"
+  },
+  {
+    "name": "joozu na",
+    "type": "Nm",
+    "translation": "geschickt",
+    "chapter": "G13",
+    "misc": "Besonderes Adjektive, verlangt Topic",
+    "hiragana": "じょおず な"
   },
   {
     "name": "ka",
@@ -286,6 +452,12 @@
     "hiragana": "かなあ"
   },
   {
+    "name": "kara",
+    "translation": "bis",
+    "chapter": "G08",
+    "hiragana": "から"
+  },
+  {
     "name": "kare",
     "hiragana": "かれ",
     "type": "N",
@@ -305,6 +477,74 @@
     "type": "N",
     "translation": "Personal nomina",
     "chapter": "G05"
+  },
+  {
+    "name": "kirai na",
+    "type": "Nm",
+    "translation": "unerträglich",
+    "chapter": "G13",
+    "misc": "Besonderes Adjektive, verlangt Topic",
+    "hiragana": "きらい な"
+  },
+  {
+    "name": "kirei na",
+    "translation": "schön",
+    "type": "A",
+    "hiragana": "きれい な"
+  },
+  {
+    "name": "kochira",
+    "type": "N",
+    "translation": "diese Richtung, diese Person",
+    "chapter": "G06",
+    "hiragana": "こちら"
+  },
+  {
+    "name": "koko",
+    "type": "N",
+    "translation": "dieser Ort/Platz hier, diese Stelle hier",
+    "chapter": "G06",
+    "hiragana": "ここ"
+  },
+  {
+    "name": "konna",
+    "type": "Nm",
+    "translation": "so ein/e (N, von dem wir jetzt reden)",
+    "chapter": "G06",
+    "hiragana": "こんな"
+  },
+  {
+    "name": "konna ni",
+    "translation": "in diesem Ausmaß/ hohen Grad, auf diese Weise",
+    "chapter": "G06",
+    "hiragana": "こんな に"
+  },
+  {
+    "name": "kono",
+    "type": "Nm",
+    "translation": "diese/r/s",
+    "chapter": "G06",
+    "hiragana": "この"
+  },
+  {
+    "name": "koo",
+    "translation": "derartig, derart",
+    "chapter": "G06",
+    "hiragana": "こお"
+  },
+  {
+    "name": "kore",
+    "type": "N",
+    "translation": "dieses Objekt hier",
+    "chapter": "G06",
+    "hiragana": "これ"
+  },
+  {
+    "name": "korera",
+    "type": "N",
+    "translation": "diese Objekte hier",
+    "chapter": "G06",
+    "hiragana": "これら"
   },
   {
     "name": "kossori",
@@ -339,6 +579,27 @@
     "type": "Ad",
     "translation": "viel, sehr",
     "chapter": "G15"
+  },
+  {
+    "name": "mottomo",
+    "type": "N/Ad",
+    "translation": "am meisten",
+    "chapter": "G15",
+    "hiragana": "もっとも"
+  },
+  {
+    "name": "nan",
+    "type": "N",
+    "translation": "Was?",
+    "chapter": "G07",
+    "hiragana": "なん"
+  },
+  {
+    "name": "nani",
+    "type": "N",
+    "translation": "Was?",
+    "chapter": "G07",
+    "hiragana": "なに"
   },
   {
     "name": "ne",
@@ -382,6 +643,18 @@
     "misc": "N + ni: Kann die Zeit angeben"
   },
   {
+    "name": "ni kanshite wa",
+    "chapter": "G34",
+    "misc": "N + ni kanshite wa: Kann das Subject adverbial betonen",
+    "hiragana": " に かんして わ"
+  },
+  {
+    "name": "ni tsuite wa",
+    "chapter": "G34",
+    "misc": "N + ni tsuite wa: Kann das Subject adverbial betonen",
+    "hiragana": " に ついて わ"
+  },
+  {
     "name": "no",
     "hiragana": "の",
     "type": "P",
@@ -389,10 +662,42 @@
     "misc": "N + no: Kann den 2. Fall angeben"
   },
   {
+    "name": "no",
+    "hiragana": "の",
+    "type": "P",
+    "chapter": "G14",
+    "misc": "N/Ad + no: Kann das vorherige Wort zu einem Nm machen"
+  },
+  {
+    "name": "no hoo ga",
+    "type": "N",
+    "translation": "N+no hoo ga+Adj = Steigerung",
+    "chapter": "G15",
+    "hiragana": "の ほお が"
+  },
+  {
+    "name": "no naka de",
+    "translation": "unter",
+    "chapter": "G15",
+    "hiragana": "の なか で"
+  },
+  {
     "name": "no tokoro ni",
     "chapter": "G29",
     "translation": "Zu einer Person gehen",
     "hiragana": "の ところ に"
+  },
+  {
+    "name": "no uchi de",
+    "translation": "unter",
+    "chapter": "G15",
+    "hiragana": "の うち で"
+  },
+  {
+    "name": "onaju gurai",
+    "translation": "A und B sind gleich Adj",
+    "chapter": "G15",
+    "hiragana": "おなじゅ ぐらい"
   },
   {
     "name": "sekaijû de",
@@ -408,6 +713,68 @@
     "hiragana": "しー"
   },
   {
+    "name": "sochira",
+    "type": "N",
+    "translation": "jene Richtung bei dir, jene Person bei dir",
+    "chapter": "G06",
+    "hiragana": "そちら"
+  },
+  {
+    "name": "soko",
+    "type": "N",
+    "translation": "jener Ort/Platz bei dir, jene Stelle bei dier",
+    "chapter": "G06",
+    "hiragana": "そこ"
+  },
+  {
+    "name": "sonna",
+    "type": "Nm",
+    "translation": "so ein/e (N, das schon bekannt ist)",
+    "chapter": "G06",
+    "hiragana": "そんな"
+  },
+  {
+    "name": "sonna ni",
+    "translation": "in jenem Ausmaß/ hohen Grad, auf jene Weise",
+    "chapter": "G06",
+    "hiragana": "そんな に"
+  },
+  {
+    "name": "sono",
+    "type": "Nm",
+    "translation": "jene/r/s bei dir",
+    "chapter": "G06",
+    "hiragana": "その"
+  },
+  {
+    "name": "soo",
+    "translation": "so (geartet), in solcher Weise",
+    "chapter": "G06",
+    "hiragana": "そお"
+  },
+  {
+    "name": "sore",
+    "type": "N",
+    "translation": "jenes Objekt bei dier",
+    "chapter": "G06",
+    "hiragana": "それ"
+  },
+  {
+    "name": "sorera",
+    "type": "N",
+    "translation": "jenes Objekte bei dier",
+    "chapter": "G06",
+    "hiragana": "それら"
+  },
+  {
+    "name": "suki na",
+    "type": "Nm",
+    "translation": "liebenswert",
+    "chapter": "G13",
+    "misc": "Besonderes Adjektive, verlangt Topic",
+    "hiragana": "すき な"
+  },
+  {
     "name": "suru",
     "type": "Vt",
     "translation": "machen",
@@ -419,6 +786,12 @@
     "hiragana": "たいへん",
     "type": "Ad",
     "translation": "sehr"
+  },
+  {
+    "name": "takusan no",
+    "type": "Nm",
+    "misc": "viel",
+    "hiragana": "たくさん の"
   },
   {
     "name": "to",
@@ -458,7 +831,7 @@
     "name": "wa",
     "hiragana": "は",
     "type": "P",
-    "chapter": "G17",
+    "chapter": "G34",
     "misc": "Kann nach Partikel kommen, oder sie ersetzen, um sie zu betonen"
   },
   {
@@ -471,7 +844,7 @@
     "name": "wa",
     "hiragana": "は",
     "type": "P",
-    "chapter": "G13",
+    "chapter": "G13/G35",
     "misc": "Kann die Topic angeben."
   },
   {
