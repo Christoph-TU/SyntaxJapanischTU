@@ -33,8 +33,14 @@
   {
     "name": "-de",
     "chapter": "G32",
-    "misc": "Kann die te-Form von Verben/Adjektiven sein",
+    "misc": "Kann die te-Form von Verben sein",
     "hiragana": "ーで"
+  },
+  {
+    "name": "-kute",
+    "chapter": "G32",
+    "translation": "te-Form von Adjectiven",
+    "hiragana": "ーくて"
   },
   {
     "name": "-mashita",
@@ -226,7 +232,7 @@
     "type": "Kop",
     "translation": "Plain form 1",
     "chapter": "G04",
-    "misc": "A wa B de aru: A ist b"
+    "misc": "A wa B de aru: A ist b; de aru ist die NmCl Form von desu/da"
   },
   {
     "name": "de atte",
@@ -410,8 +416,8 @@
   },
   {
     "name": "itsumo",
-    "type": "Nm",
-    "misc": "immer",
+    "type": "Ad",
+    "translation": "immer",
     "hiragana": "いつも"
   },
   {
@@ -453,8 +459,23 @@
   },
   {
     "name": "kara",
-    "translation": "bis",
-    "chapter": "G08",
+    "type": "Ad",
+    "translation": "N+Kara = bis, ab, vom",
+    "chapter": "G08/G38",
+    "hiragana": "から"
+  },
+  {
+    "name": "kara",
+    "translation": "V2b+te+Kara = nachdem etwas gemacht wurde",
+    "type": "PrAdCl",
+    "chapter": "G38",
+    "hiragana": "から"
+  },
+  {
+    "name": "kara",
+    "translation": "Plain form+kara = weil",
+    "type": "PrAdCl",
+    "chapter": "G38",
     "hiragana": "から"
   },
   {
@@ -588,6 +609,33 @@
     "hiragana": "もっとも"
   },
   {
+    "name": "mou",
+    "type": "Ad",
+    "translation": "bereits, schon",
+    "hiragana": "もう"
+  },
+  {
+    "name": "n",
+    "type": "N",
+    "chapter": "G40",
+    "translation": "Sache/Tatsache (Umgangssprachlich)",
+    "misc": "n+ desu/wa/wo: (no=Nomen)",
+    "hiragana": "ん"
+  },
+  {
+    "name": "na no",
+    "translation": "siehe no als Nomen",
+    "chapter": "G40",
+    "misc": "da/desu wird vor no zu na",
+    "hiragana": "な の"
+  },
+  {
+    "name": "na node",
+    "translation": "siehe node",
+    "chapter": "G38",
+    "hiragana": "な ので"
+  },
+  {
     "name": "nan",
     "type": "N",
     "translation": "Was?",
@@ -664,8 +712,16 @@
   {
     "name": "no",
     "hiragana": "の",
+    "type": "N",
+    "chapter": "G40",
+    "translation": "Sache/Tatsache",
+    "misc": "no+ desu/wa/wo: (no=Nomen)"
+  },
+  {
+    "name": "no",
+    "hiragana": "の",
     "type": "P",
-    "chapter": "G14",
+    "chapter": "G14/G37",
     "misc": "N/Ad + no: Kann das vorherige Wort zu einem Nm machen"
   },
   {
@@ -692,6 +748,14 @@
     "translation": "unter",
     "chapter": "G15",
     "hiragana": "の うち で"
+  },
+  {
+    "name": "node",
+    "translation": "Plain form+node = weil",
+    "type": "PrAdCl",
+    "chapter": "G38",
+    "misc": "desu/da/de aru wird bei K1/K2 vor node zu na",
+    "hiragana": "ので"
   },
   {
     "name": "onaju gurai",
@@ -794,6 +858,13 @@
     "hiragana": "たくさん の"
   },
   {
+    "name": "tame ni",
+    "translation": "Plain form+tame ni = Ziel(um etwas zu machen)",
+    "type": "PrAdCl",
+    "chapter": "G38",
+    "hiragana": "ため に"
+  },
+  {
     "name": "to",
     "type": "-",
     "chapter": "G23",
@@ -816,6 +887,13 @@
     "hiragana": "と"
   },
   {
+    "name": "toki",
+    "translation": "Plain form+toki(ni) = als...",
+    "type": "PrAdCl",
+    "chapter": "G38",
+    "hiragana": "とき"
+  },
+  {
     "name": "tokoro",
     "chapter": "G33",
     "translation": "-te iru tokoro desu = gerade unterwegs",
@@ -826,6 +904,18 @@
     "type": "Ad",
     "translation": "sehr",
     "hiragana": "とても"
+  },
+  {
+    "name": "tsu",
+    "translation": "Zahl + tsu = counter",
+    "chapter": "G21",
+    "hiragana": "つ"
+  },
+  {
+    "name": "uchi",
+    "type": "Ad",
+    "translation": "drinnen",
+    "hiragana": "うち"
   },
   {
     "name": "wa",
@@ -907,7 +997,7 @@
   {
     "name": "yukkuri",
     "type": "Ad",
-    "translation": "langsam",
+    "translation": "langsam, gemütlich",
     "chapter": "G29",
     "hiragana": "ゆっくり"
   },
