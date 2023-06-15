@@ -2,9 +2,22 @@
 
 Dieses Wörterbuch sammelt häufig genutzte Wörter und Satzfragmente, die oftmals in Hiragana notiert werden. Es beinhaltet außerdem alle Partikel, um einen umfassenden Überblick zu bieten, welche Satzfunktionen sie jeweils einnehmen könnten.
 
+Alle Angaben ohne Gewähr.
+
 ## Struktur
 
 Die eigentlichen Wörter befinden sich in der Datei `entries.json`, welche die wichtigste Datei dieses Projekts ist. Das Python-Skript `generate_dictionary.py` erzeugt in Verbindung mit der LaTeX-Vorlage `template.tex` ein TeX-Dokument, welches anschließend zu einem PDF kompiliert wird.
+
+## Overleaf
+Es ist auch möglich das Wörterbuch komplett auf Overleaf zu berabeiten. Einfach die `entries.json`, `overleaf-main.tex` und `overleaf-python.py` in ein Overleaf Project hineinkopieren und dann Recompile drücken.
+
+### Vorteile
+* Falls man sich technisch nicht gut auskennt, ist es einfacher die Einträge zu bearbeiten oder das Pdf Dokument zu verändern.
+* Funktioniert universal, da nur ein Webbrowser notwendig ist
+  
+### Nachteile
+* Entries Einträge werden nur beim ausgeben sortiert, die eigentliche Liste bleibt gleich.
+* Hiragana wird nicht automatisch generiert.
 
 ## Entries
 
@@ -23,7 +36,7 @@ Die Einträge sind im JSON-Format angegeben und können folgende Felder enthalte
   }
 ```
 
-Alle Felder sind optional. Das Skript erzeugt automatisch ein Hiragana aus dem Namen, wenn es ausgeführt wird. Zusätzlich werden alle Einträge alphabetisch geordnet, wenn das Skript ausgeführt wird. Daher ist es wichtig, die Datei zu speichern, bevor das Skript ausgeführt wird, um das versehentliche Löschen von Einträgen zu vermeiden.
+Alle Felder sind optional. Das Skript erzeugt automatisch Hiragana passend zum Namen, wenn es ausgeführt wird. Zudem werden dabei alle Einträge alphabetisch geordnet. Dabei wird allerdings die alte Liste überschrieben. Daher ist es wichtig, die Datei zuerst zu speichern, bevor das Skript ausgeführt wird, da sonst ungespeicherte Einträgen gelöscht werden könnten.
 
 Hier ist ein Beispiel für einen Eintrag:
 ```json
@@ -39,6 +52,6 @@ Hier ist ein Beispiel für einen Eintrag:
 
 ## Fehlerkorrekturen und neue Einträge
 
-Am besten währe es einen Pull Request zu stellen, um Fehler zu korrigieren oder neue Einträge hinzuzufügen. Bitte führe vor dem Erstellen des Pull Requests zuerst das Python-Skript aus, um sicherzustellen, dass die Einträge geordnet sind.
+Am besten währe es einen Pull Request zu erstellen, um Fehler zu korrigieren oder neue Einträge hinzuzufügen. Bitte aber zuerst immer das Python-Skript ausführen, um sicherzustellen, dass die Einträge geordnet sind.
 
-Sollte dies nicht möglich sein, sende die überarbeitete Entries-Liste per E-Mail oder Whatsapp.
+Sollte dies nicht möglich sein, sende einfach die überarbeitete Entries-Liste per E-Mail oder Whatsapp.

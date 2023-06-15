@@ -9,55 +9,146 @@
     "misc": ""
   },
   {
-    "name": "",
-    "type": "",
-    "translation": ""
-  },
-  {
     "name": "-arimsaen",
-    "hiragana": "ありません",
-    "misc": "Oft die formelle negierung"
+    "translation": "V2+arimasen=Vergangenheitsform polite",
+    "hiragana": "ーありんさえん"
   },
   {
     "name": "-arimsaen deshita",
-    "hiragana": "ありません",
     "chapter": "G30",
-    "misc": "V2 + arimsaen deshita = Vergangenheitsform polite negative"
+    "misc": "V2+arimsaen deshita=Vergangenheitsform polite negative",
+    "hiragana": "ーありんさえん でした"
+  },
+  {
+    "name": "-beki de aru",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V3+beki...=Verb-sollen",
+    "misc": "Achtung: de aru is flektierbar! mod: K1 beki de aru",
+    "hiragana": "ーべき で ある"
+  },
+  {
+    "name": "-beki de wa nai",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V3+beki...=Verb-nicht sollen",
+    "misc": "Achtung: de wa nai is flektierbar! mod: K1 beki de aru",
+    "hiragana": "ーべき で は ない"
   },
   {
     "name": "-da",
     "chapter": "G30",
-    "misc": "V2b + da = Vergangenheitsform plain",
+    "translation": "V2b+da=Vergangenheitsform plain",
     "hiragana": "ーだ"
   },
   {
     "name": "-de",
     "chapter": "G32",
-    "misc": "Kann die te-Form von Verben sein",
+    "translation": "V2b+de=te-Form von Verben",
     "hiragana": "ーで"
+  },
+  {
+    "name": "-koto ga dekinai",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V3+koto...=Verb-nicht können",
+    "misc": "Achtung: dekinai is flektierbar! mod: K4 dekiru",
+    "hiragana": "ーこと が できない"
+  },
+  {
+    "name": "-koto ga dekiru",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V3+koto...=Verb-können",
+    "misc": "Achtung: dekiru is flektierbar! mod: K4 dekiru",
+    "hiragana": "ーこと が できる"
   },
   {
     "name": "-kute",
     "chapter": "G32",
-    "translation": "te-Form von Adjectiven",
+    "translation": "i-Adj(ohne letztes i)+kute: te-Form",
     "hiragana": "ーくて"
   },
   {
     "name": "-mashita",
     "chapter": "G30",
-    "misc": "V2a + mashita = Vergangenheitsform polite",
+    "misc": "V2a+mashita=Vergangenheitsform polite",
     "hiragana": "ーました"
+  },
+  {
+    "name": "-mo ii",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V2b+te/de+mo ii=Verb-dürfen",
+    "misc": "Achtung: ii is flektierbar! mod: K2 ii",
+    "hiragana": "ーも いい"
+  },
+  {
+    "name": "-mo yoi",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V2b+te/de+mo yoi=Verb-dürfen",
+    "misc": "Achtung: yoi is flektierbar! mod: K2 yoi",
+    "hiragana": "ーも よい"
   },
   {
     "name": "-nai",
     "hiragana": "ない",
-    "misc": "Oft die informelle negierung"
+    "translation": "Oft die informelle negierung"
   },
   {
     "name": "-nakatta",
     "chapter": "G30",
-    "misc": "V1 + nakatta = Vergangenheitsform plain negative",
+    "misc": "V1+nakatta=Vergangenheitsform plain negative",
     "hiragana": "ーなかった"
+  },
+  {
+    "name": "-nakereba ikenai",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V1+nake...=Verb-müssen",
+    "misc": "Achtung: ikenai is flektierbar! mod: K4 ikeru",
+    "hiragana": "ーなければ いけない"
+  },
+  {
+    "name": "-nakereba naranai",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V1+nake...=Verb-müssen",
+    "misc": "Achtung: naranai is flektierbar! mod: K4 naru",
+    "hiragana": "ーなければ ならない"
+  },
+  {
+    "name": "-nakute mo ii",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V1+naku...=Verb-nicht müssen",
+    "misc": "Achtung: ii is flektierbar! mod: K2 ii",
+    "hiragana": "ーなくて も いい"
+  },
+  {
+    "name": "-nakute mo yoi",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V1+naku...=Verb-nicht müssen",
+    "misc": "Achtung: yoi is flektierbar! mod: K2 yoi",
+    "hiragana": "ーなくて も よい"
+  },
+  {
+    "name": "-nakute wa ikenai",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V1+naku...=Verb-müssen",
+    "misc": "Achtung: ikenai is flektierbar! mod: K4 ikeru",
+    "hiragana": "ーなくて は いけない"
+  },
+  {
+    "name": "-nakute wa naranai",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V1+naku...=Verb-müssen",
+    "misc": "Achtung: naranai is flektierbar! mod: K4 naru",
+    "hiragana": "ーなくて は ならない"
   },
   {
     "name": "-san",
@@ -67,13 +158,13 @@
   {
     "name": "-ta",
     "chapter": "G30",
-    "misc": "V2b + ta = Vergangenheitsform plain",
+    "translation": "V2b+ta=Vergangenheitsform plain",
     "hiragana": "ーた"
   },
   {
     "name": "-tari",
     "chapter": "G32",
-    "misc": "-tari -tari suru = Aufzählung von Verben",
+    "translation": "-tari -tari suru=Aufzählung von Verben",
     "hiragana": "ーたり"
   },
   {
@@ -83,9 +174,25 @@
     "hiragana": "ーて"
   },
   {
+    "name": "-wa ikenai",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V2b+te/de+wa ikenai=Verb-nicht dürfen",
+    "misc": "Achtung: ikenai is flektierbar! mod: K4 ikeru",
+    "hiragana": "ーは いけない"
+  },
+  {
+    "name": "-wa naranai",
+    "chapter": "G44",
+    "type": "PE",
+    "translation": "V2b+te/de+wa naranai=Verb-nicht dürfen",
+    "misc": "Achtung: naranai is flektierbar! mod: K4 naru",
+    "hiragana": "ーは ならない"
+  },
+  {
     "name": "-zutsu",
     "chapter": "G23",
-    "translation": "Counter + zutsu: je X Stück",
+    "translation": "Counter+zutsu: je X Stück",
     "hiragana": "ーずつ"
   },
   {
@@ -104,7 +211,7 @@
   {
     "name": "amari",
     "type": "Ad",
-    "translation": "+ neg. = nicht so/sehr/so viel",
+    "translation": "+neg.=nicht so/sehr/so viel",
     "hiragana": "あまり"
   },
   {
@@ -207,9 +314,9 @@
   },
   {
     "name": "de",
-    "type": "P",
+    "type": "Ad",
     "chapter": "G17",
-    "misc": "Ort + de: stattfinden",
+    "translation": "Ort+de: stattfinden",
     "hiragana": "で"
   },
   {
@@ -221,9 +328,15 @@
   },
   {
     "name": "de",
-    "type": "P",
+    "chapter": "G32",
+    "translation": "Na-Adjektiv+de: te-Form",
+    "hiragana": "で"
+  },
+  {
+    "name": "de",
+    "type": "Ad",
     "chapter": "G29",
-    "misc": "N + de: Verkehrsmittel",
+    "translation": "N+de: Verkehrsmittel benutzen",
     "hiragana": "で"
   },
   {
@@ -246,14 +359,21 @@
     "type": "Kop",
     "chapter": "G30",
     "translation": "Polite neg. desu",
-    "hiragana": "で わ ありません でした"
+    "hiragana": "で は ありません でした"
   },
   {
     "name": "de wa nakatta",
     "type": "Kop",
     "chapter": "G30",
     "translation": "Plain neg. desu",
-    "hiragana": "で わ なかった"
+    "hiragana": "で は なかった"
+  },
+  {
+    "name": "demo",
+    "translation": "Aber",
+    "chapter": "G42",
+    "type": "C",
+    "hiragana": "でも"
   },
   {
     "name": "deshita",
@@ -294,7 +414,8 @@
   {
     "name": "donna",
     "type": "Nm",
-    "translation": "was für ein/e/n (N, man fragt nach einem Eigenschaftswort oder nach der Art eines Objekt/einer Person)",
+    "translation": "was für ein/e/n N",
+    "misc": "man fragt nach einem Eigenschaftswort oder nach der Art eines Objekt/einer Person",
     "chapter": "G06",
     "hiragana": "どんな"
   },
@@ -343,7 +464,14 @@
     "hiragana": "が",
     "type": "P",
     "chapter": "G34",
-    "misc": "N + ga: Kann das (betonte) Subjekt angeben, oder in Nebensätzen oder in einer K3 das normale Subjekt bestimmen"
+    "misc": "N+ga: Kann das (betonte) Subjekt angeben, oder in Nebensätzen oder in einer K3 das normale Subjekt bestimmen"
+  },
+  {
+    "name": "ga",
+    "hiragana": "が",
+    "type": "C",
+    "chapter": "G42",
+    "misc": "Kann als 'aber' dienen, um zwei komplette Sätze zu verbinden"
   },
   {
     "name": "hai",
@@ -361,7 +489,7 @@
   },
   {
     "name": "hodo",
-    "translation": "hodo + neg: A ist nicht so Adj wie B",
+    "translation": "hodo+neg: A ist nicht so Adj wie B",
     "chapter": "G15",
     "hiragana": "ほど"
   },
@@ -378,7 +506,7 @@
     "type": "Vi/K3",
     "translation": "Kann eine Form von iru sein",
     "hiragana": "いー",
-    "misc": "te-Form + iru = Eigene Übersetzung G33"
+    "misc": "te-Form+iru=Eigene Übersetzung G33"
   },
   {
     "name": "ichiban",
@@ -444,6 +572,12 @@
     "chapter": "G04"
   },
   {
+    "name": "kanari",
+    "type": "Ad",
+    "translation": "ziemlich",
+    "hiragana": "かなり"
+  },
+  {
     "name": "kanojo",
     "hiragana": "かのじょ",
     "type": "N",
@@ -460,20 +594,20 @@
   {
     "name": "kara",
     "type": "Ad",
-    "translation": "N+Kara = bis, ab, vom",
+    "translation": "N+Kara=bis, ab, vom",
     "chapter": "G08/G38",
     "hiragana": "から"
   },
   {
     "name": "kara",
-    "translation": "V2b+te+Kara = nachdem etwas gemacht wurde",
+    "translation": "V2b+te+Kara=nachdem etwas gemacht wurde",
     "type": "PrAdCl",
     "chapter": "G38",
     "hiragana": "から"
   },
   {
     "name": "kara",
-    "translation": "Plain form+kara = weil",
+    "translation": "Plain form+kara=weil",
     "type": "PrAdCl",
     "chapter": "G38",
     "hiragana": "から"
@@ -484,6 +618,13 @@
     "type": "N",
     "translation": "Personal nomina",
     "chapter": "G05"
+  },
+  {
+    "name": "keredomo",
+    "type": "C",
+    "chapter": "G42",
+    "misc": "Kann als 'aber' dienen, um zwei komplette Sätze zu verbinden",
+    "hiragana": "けれども"
   },
   {
     "name": "kichin to",
@@ -595,6 +736,14 @@
     "hiragana": "も"
   },
   {
+    "name": "mono",
+    "type": "N",
+    "chapter": "G41",
+    "translation": "(verwendet für Gedanken oder Emotionen)",
+    "misc": "mono+de aru: ähnlich wie no als Nomen",
+    "hiragana": "もの"
+  },
+  {
     "name": "motto",
     "hiragana": "もっと",
     "type": "Ad",
@@ -619,14 +768,14 @@
     "type": "N",
     "chapter": "G40",
     "translation": "Sache/Tatsache (Umgangssprachlich)",
-    "misc": "n+ desu/wa/wo: (no=Nomen)",
+    "misc": "n+desu/wa/wo: (no=Nomen)",
     "hiragana": "ん"
   },
   {
     "name": "na no",
     "translation": "siehe no als Nomen",
     "chapter": "G40",
-    "misc": "da/desu wird vor no zu na",
+    "misc": "da/desu wird vor 'no' zu 'na'",
     "hiragana": "な の"
   },
   {
@@ -661,53 +810,53 @@
     "hiragana": "に",
     "type": "P",
     "chapter": "G05",
-    "misc": "N + ni: Kann den 3. Fall angeben"
+    "translation": "N+ni: Kann den 3. Fall angeben"
   },
   {
     "name": "ni",
     "hiragana": "に",
     "type": "P",
     "chapter": "G29",
-    "misc": "Kann den Zielort angeben"
+    "translation": "N+ni: Kann den Zielort angeben"
   },
   {
     "name": "ni",
     "hiragana": "に",
     "type": "P",
     "chapter": "G17",
-    "misc": "N + ni: Kann den Ort angeben"
+    "translation": "N+ni: Kann den Ort angeben"
   },
   {
     "name": "ni",
     "hiragana": "に",
     "type": "P",
     "chapter": "G12",
-    "misc": "Na Adj + ni: Kann die Adverbiale Form von Na - Adjektiven angeben"
+    "translation": "Na Adj+ni: Kann die Adverbiale Form von Na-Adjektiven angeben"
   },
   {
     "name": "ni",
     "hiragana": "に",
     "type": "P",
-    "misc": "N + ni: Kann die Zeit angeben"
+    "translation": "N+ni: Kann die Zeit angeben"
   },
   {
     "name": "ni kanshite wa",
     "chapter": "G34",
-    "misc": "N + ni kanshite wa: Kann das Subject adverbial betonen",
-    "hiragana": " に かんして わ"
+    "misc": "N+ni kanshite wa: Kann das Subject adverbial betonen",
+    "hiragana": " に かんして は"
   },
   {
     "name": "ni tsuite wa",
     "chapter": "G34",
-    "misc": "N + ni tsuite wa: Kann das Subject adverbial betonen",
-    "hiragana": " に ついて わ"
+    "misc": "N+ni tsuite wa: Kann das Subject adverbial betonen",
+    "hiragana": " に ついて は"
   },
   {
     "name": "no",
     "hiragana": "の",
     "type": "P",
     "chapter": "G05",
-    "misc": "N + no: Kann den 2. Fall angeben"
+    "translation": "N+no: Kann den 2. Fall angeben"
   },
   {
     "name": "no",
@@ -722,12 +871,12 @@
     "hiragana": "の",
     "type": "P",
     "chapter": "G14/G37",
-    "misc": "N/Ad + no: Kann das vorherige Wort zu einem Nm machen"
+    "translation": "N/Ad+no: Kann das vorherige Wort zu einem Nm machen"
   },
   {
     "name": "no hoo ga",
     "type": "N",
-    "translation": "N+no hoo ga+Adj = Steigerung",
+    "translation": "N+no hoo ga+Adj=Steigerung",
     "chapter": "G15",
     "hiragana": "の ほお が"
   },
@@ -751,7 +900,7 @@
   },
   {
     "name": "node",
-    "translation": "Plain form+node = weil",
+    "translation": "Plain form+node=weil",
     "type": "PrAdCl",
     "chapter": "G38",
     "misc": "desu/da/de aru wird bei K1/K2 vor node zu na",
@@ -775,6 +924,13 @@
     "translation": "machen",
     "misc": "Kann eine Form von suru sein",
     "hiragana": "しー"
+  },
+  {
+    "name": "shikashi",
+    "translation": "Aber",
+    "chapter": "G42",
+    "type": "C",
+    "hiragana": "しかし"
   },
   {
     "name": "sochira",
@@ -852,14 +1008,14 @@
     "translation": "sehr"
   },
   {
-    "name": "takusan no",
-    "type": "Nm",
-    "misc": "viel",
-    "hiragana": "たくさん の"
+    "name": "takusan",
+    "type": "Ad",
+    "translation": "viel",
+    "hiragana": "たくさん"
   },
   {
     "name": "tame ni",
-    "translation": "Plain form+tame ni = Ziel(um etwas zu machen)",
+    "translation": "Plain form+tame ni=Ziel(um etwas zu machen)",
     "type": "PrAdCl",
     "chapter": "G38",
     "hiragana": "ため に"
@@ -868,7 +1024,7 @@
     "name": "to",
     "type": "-",
     "chapter": "G23",
-    "translation": "N + to + N: Und",
+    "translation": "N+to+N...: N und N",
     "misc": "Nimmt den Typ des Partikels an welches es ersetzt",
     "hiragana": "と"
   },
@@ -876,27 +1032,41 @@
     "name": "to",
     "type": "P",
     "chapter": "G23",
-    "translation": "Counter + to: Echtes Und",
+    "translation": "Counter+to: Echtes Und",
     "hiragana": "と"
   },
   {
     "name": "to",
     "type": "P",
     "chapter": "G29",
-    "translation": "N + to: Kann Ad mit bedeuten",
+    "translation": "N+to: Kann Ad mit bedeuten",
+    "hiragana": "と"
+  },
+  {
+    "name": "to",
+    "type": "ObjVa",
+    "chapter": "G45",
+    "misc": "'to' kann das Valenzobject von V oder Zitate angeben. Z.B. bei 言う,考える, 思う,呼ぶ",
     "hiragana": "と"
   },
   {
     "name": "toki",
-    "translation": "Plain form+toki(ni) = als...",
+    "translation": "Plain form+toki(ni)=als...",
     "type": "PrAdCl",
     "chapter": "G38",
     "hiragana": "とき"
   },
   {
+    "name": "toki",
+    "translation": "N+toki(ni)=wenn/als",
+    "type": "Ad",
+    "chapter": "G41",
+    "hiragana": "とき"
+  },
+  {
     "name": "tokoro",
     "chapter": "G33",
-    "translation": "-te iru tokoro desu = gerade unterwegs",
+    "translation": "-te iru tokoro desu=gerade unterwegs",
     "hiragana": "ところ"
   },
   {
@@ -907,7 +1077,7 @@
   },
   {
     "name": "tsu",
-    "translation": "Zahl + tsu = counter",
+    "translation": "Zahl+tsu=counter",
     "chapter": "G21",
     "hiragana": "つ"
   },
@@ -922,20 +1092,20 @@
     "hiragana": "は",
     "type": "P",
     "chapter": "G34",
-    "misc": "Kann nach Partikel kommen, oder sie ersetzen, um sie zu betonen"
+    "translation": "Kann nach Partikel kommen, oder sie ersetzen, um sie zu betonen"
   },
   {
     "name": "wa",
     "hiragana": "は",
     "type": "P",
-    "misc": "Kann das Subject angeben."
+    "translation": "Kann das Subject angeben."
   },
   {
     "name": "wa",
     "hiragana": "は",
     "type": "P",
     "chapter": "G13/G35",
-    "misc": "Kann die Topic angeben."
+    "translation": "Kann die Topic angeben."
   },
   {
     "name": "washi",
@@ -963,14 +1133,14 @@
     "hiragana": "を",
     "type": "P",
     "chapter": "G26",
-    "misc": "Kann den 4. Fall/das Object von Vt angeben"
+    "translation": "Kann den 4. Fall/das Object von Vt angeben"
   },
   {
     "name": "wo",
     "hiragana": "を",
     "type": "P",
     "chapter": "G29",
-    "misc": "Kann bei Vi eine Ortsangabe sein"
+    "translation": "Kann bei Vi eine Ortsangabe sein"
   },
   {
     "name": "ya",
@@ -985,6 +1155,13 @@
     "translation": "(steht am Ende des Satzes) !",
     "chapter": "G23",
     "hiragana": "よ"
+  },
+  {
+    "name": "yoku",
+    "type": "Ad",
+    "translation": "Betonung (verblüffen, empören)",
+    "chapter": "G41",
+    "hiragana": "よく"
   },
   {
     "name": "yori",
@@ -1006,5 +1183,11 @@
     "hiragana": "ゆうめいな",
     "type": "A",
     "translation": "bekannt, berühmt"
+  },
+  {
+    "name": "「...」to",
+    "chapter": "G45",
+    "translation": "Gibt das Zitat in einem Satz an",
+    "hiragana": "「...」と"
   }
 ]
