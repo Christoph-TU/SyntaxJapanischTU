@@ -549,6 +549,15 @@
     "hiragana": "いつも"
   },
   {
+    "name": "iu",
+    "type": "Vi",
+    "chapter": "G45",
+    "translation": "iu+to=heißen, so genannt, man sagt",
+    "code": "80106",
+    "kanji": "言う",
+    "hiragana": "いう"
+  },
+  {
     "name": "iya na",
     "type": "Nm",
     "translation": "unerträglich",
@@ -576,6 +585,14 @@
     "type": "Ad",
     "translation": "ziemlich",
     "hiragana": "かなり"
+  },
+  {
+    "name": "kangaerareru",
+    "type": "Vi+to",
+    "translation": "es wird vermutet, dass~, man denkt, dass",
+    "chapter": "G47",
+    "misc": "Wichtig! Hier passive also K4",
+    "hiragana": "かんがえられる"
   },
   {
     "name": "kanojo",
@@ -907,6 +924,14 @@
     "hiragana": "ので"
   },
   {
+    "name": "omowareru",
+    "type": "Vi+to",
+    "translation": "es wird vermutet, dass~, man denkt, dass",
+    "chapter": "G47",
+    "misc": "Wichtig! Hier passive also K4",
+    "hiragana": "おもわれる"
+  },
+  {
     "name": "onaju gurai",
     "translation": "A und B sind gleich Adj",
     "chapter": "G15",
@@ -1009,9 +1034,10 @@
   },
   {
     "name": "takusan",
-    "type": "Ad",
+    "type": "Nm/Ad",
     "translation": "viel",
-    "hiragana": "たくさん"
+    "hiragana": "たくさん",
+    "misc": "Falls es ein Counter ist, dient es als Nm (Kann z.B. auch vor dem Prädikat stehen.)"
   },
   {
     "name": "tame ni",
@@ -1155,6 +1181,16 @@
     "translation": "(steht am Ende des Satzes) !",
     "chapter": "G23",
     "hiragana": "よ"
+  },
+  {
+    "name": "yobareru",
+    "type": "Vi+to",
+    "translation": "genannt werden",
+    "chapter": "G47",
+    "kanji": "呼ばれる",
+    "code": "20305",
+    "misc": "Wichtig! yobu: K5 allerdings yobareru: 'K4 yobu' da passive",
+    "hiragana": "よばれる"
   },
   {
     "name": "yoku",
