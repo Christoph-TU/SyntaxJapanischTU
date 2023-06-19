@@ -5,7 +5,7 @@ with open("entries.json", "r", encoding="utf-8") as f:
     entries = json.load(f)
 
 # Sort entries based on the 'name' attribute
-sorted_entries = sorted(entries, key=lambda x: x['name'])
+sorted_entries = sorted(entries, key=lambda x: (x.get('name', "").lstrip('-'),x.get('hiragana', ""), x.get('type', ""), x.get('translation', "")))
 
 # Loop over the sorted entries
 for entry in sorted_entries:
@@ -16,9 +16,11 @@ for entry in sorted_entries:
     type = entry.get('type', "")
     translation = entry.get('translation', "")
     chapter = entry.get('chapter', "")
-
+    
+    chapter_line = f"\\textbf{{{chapter}}}" if chapter else ""
+    
     # Print formatted text
-    print(f"\\textbf{{{name}}} {hiragana} \\textit{{{type}}} {translation} \\textbf{{{chapter}}}")
+    print(f"\\needspace{{3\\baselineskip}}\\noindent\\textbf{{{name}}} {hiragana} \\textit{{{type}}} {translation} {chapter_line}")
 
     # Check if any of these keys exist in the entry
     if entry.get('kanji') or entry.get('code') or entry.get('misc'):
@@ -31,6 +33,8 @@ for entry in sorted_entries:
             kanji = entry.get('kanji', "")
             code = entry.get('code', "")
             print(f"\\textbf{{Kanji:}} {kanji} \\textbf{{Code:}} {code}")
+            if entry.get('misc'):
+                print("\\\\")
         
         # If 'misc' exists, print it
         if entry.get('misc'):
@@ -39,5 +43,3 @@ for entry in sorted_entries:
         
         # End the text block
         print("\\end{adjustwidth}")
-    else:
-        print("\\\\")

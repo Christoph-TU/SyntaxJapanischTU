@@ -8,7 +8,7 @@ with open("entries.json", "r", encoding="utf-8") as f:
     entries = json.load(f)
 
 # Sort entries based on the 'name' attribute
-sorted_entries = sorted(entries, key=lambda x: x['name'])
+sorted_entries = sorted(entries, key=lambda x: (x.get('name', "").lstrip('-'), x.get('hiragana', ""),  x.get('type', ""), x.get('translation', "")))
 
 for entry in sorted_entries:
     if not entry.get("hiragana") and entry.get("name"):

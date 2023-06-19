@@ -2,6 +2,8 @@
 \usepackage{changepage}
 \usepackage{CJKutf8}
 \usepackage{geometry}
+\usepackage{needspace}
+
 \geometry{
  a4paper,
  left=30mm,
@@ -14,17 +16,16 @@
 \section*{Mini Wörterbuch}
 
 {% for entry in entries %}
-\textbf{ {{-entry.name}}} {{entry.hiragana}} \textit{ {{-entry.type}}} {{entry.translation}} {{ "\\textbf{" ~ entry.chapter ~ "}" if entry.chapter }}
+\needspace{3\baselineskip}
+\noindent\textbf{ {{-entry.name}}} {{entry.hiragana}} \textit{ {{-entry.type}}} {{entry.translation}} {{ "\\textbf{" ~ entry.chapter ~ "}" if entry.chapter }}
         {% if entry.get('kanji') or entry.get('code') or entry.get('misc') %}
                 \begin{adjustwidth}{0.5cm}{}
                 {% if entry.get('kanji') or entry.get('code') %}
                         \textbf{Kanji:} {{ entry.kanji }} \textbf{Code:} {{ entry.code }}
-                        {{ "\\" if entry.get('misc') }}
+                        {{ "\\\\" if entry.get('misc') }}
                 {% endif %}
                 {{ "\\textbf{Info:} " ~ entry.misc if entry.get('misc') }}
                 \end{adjustwidth}
-        {% else %}
-                \\
         {% endif %}
 {% endfor %}
 
