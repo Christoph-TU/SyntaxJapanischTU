@@ -15,7 +15,7 @@
   {
     "name": "amari",
     "type": "Ad",
-    "translation": "+neg.=nicht so/sehr/so viel",
+    "translation": "amari+neg.=nicht so/sehr/so viel",
     "hiragana": "あまり"
   },
   {
@@ -125,7 +125,7 @@
     "name": "da",
     "hiragana": "だ",
     "type": "Kop",
-    "translation": "Plain from 2",
+    "translation": "Plain form 2",
     "chapter": "G04",
     "misc": "A wa B da: A ist b"
   },
@@ -299,15 +299,22 @@
     "name": "e",
     "type": "P",
     "chapter": "G29",
-    "misc": "Kann den Ort angeben",
+    "translation": "Kann den Ort angeben",
     "hiragana": "え"
+  },
+  {
+    "name": "ee",
+    "type": "In",
+    "chapter": "LS-N-02",
+    "translation": "Eh!, Oh! (erschreckend)",
+    "hiragana": "ええ"
   },
   {
     "name": "ga",
     "hiragana": "が",
     "type": "C",
     "chapter": "G42",
-    "misc": "Kann als 'aber' dienen, um zwei komplette Sätze zu verbinden"
+    "translation": "Kann als 'aber' dienen, um zwei komplette Sätze zu verbinden"
   },
   {
     "name": "ga",
@@ -324,7 +331,7 @@
   },
   {
     "name": "heta na",
-    "type": "Nm",
+    "type": "na-A",
     "translation": "ungeschickt",
     "chapter": "G13",
     "misc": "Besonderes Adjektive, verlangt Topic",
@@ -338,7 +345,7 @@
   },
   {
     "name": "hoshii",
-    "type": "Nm",
+    "type": "i-A",
     "translation": "wünschenswert",
     "chapter": "G13",
     "misc": "Besonderes Adjektive, verlangt Topic",
@@ -379,7 +386,7 @@
   },
   {
     "name": "itai",
-    "type": "Nm",
+    "type": "i-A",
     "translation": "schmwerzhaft",
     "chapter": "G13",
     "misc": "Besonderes Adjektive, verlangt Topic",
@@ -402,7 +409,7 @@
   },
   {
     "name": "iya na",
-    "type": "Nm",
+    "type": "na-A",
     "translation": "unerträglich",
     "chapter": "G13",
     "misc": "Besonderes Adjektive, verlangt Topic",
@@ -410,7 +417,7 @@
   },
   {
     "name": "joozu na",
-    "type": "Nm",
+    "type": "na-A",
     "translation": "geschickt",
     "chapter": "G13",
     "misc": "Besonderes Adjektive, verlangt Topic",
@@ -508,7 +515,7 @@
   },
   {
     "name": "kirai na",
-    "type": "Nm",
+    "type": "na-A",
     "translation": "unerträglich",
     "chapter": "G13",
     "misc": "Besonderes Adjektive, verlangt Topic",
@@ -517,7 +524,7 @@
   {
     "name": "kirei na",
     "translation": "schön",
-    "type": "A",
+    "type": "na-A",
     "hiragana": "きれい な"
   },
   {
@@ -634,6 +641,13 @@
     "hiragana": "ーました"
   },
   {
+    "name": "mazui",
+    "type": "i-A",
+    "chapter": "LS-N-02",
+    "translation": "ungenießbar, schlecht ",
+    "hiragana": "まずい"
+  },
+  {
     "name": "mo",
     "type": "P",
     "translation": "auch",
@@ -705,6 +719,13 @@
     "translation": "siehe node",
     "chapter": "G38",
     "hiragana": "な ので"
+  },
+  {
+    "name": "naa",
+    "translation": "nicht wahr? (man spricht mit sich)",
+    "chapter": "LS-N-03",
+    "type": "Pe",
+    "hiragana": "なあ"
   },
   {
     "name": "-nai",
@@ -888,6 +909,13 @@
     "hiragana": "ので"
   },
   {
+    "name": "oishii",
+    "type": "i-A",
+    "chapter": "LS-N-02",
+    "translation": "wohlschmeckend, lecker",
+    "hiragana": "おいしい"
+  },
+  {
     "name": "omowareru",
     "type": "Vi+to",
     "translation": "es wird vermutet, dass~, man denkt, dass",
@@ -974,6 +1002,13 @@
     "hiragana": "それ"
   },
   {
+    "name": "sorekara",
+    "translation": "Und dann, dann, und",
+    "chapter": "LS-N-03",
+    "type": "C",
+    "hiragana": "それから"
+  },
+  {
     "name": "sorera",
     "type": "N",
     "translation": "jenes Objekte bei dier",
@@ -982,7 +1017,7 @@
   },
   {
     "name": "suki na",
-    "type": "Nm",
+    "type": "na-A",
     "translation": "liebenswert",
     "chapter": "G13",
     "misc": "Besonderes Adjektive, verlangt Topic",
@@ -1025,6 +1060,7 @@
     "name": "-tari",
     "chapter": "G32",
     "translation": "-tari -tari suru=Aufzählung von Verben",
+    "misc": "Achtung: suru is flektierbar und kein eigenes Verb, sondern nur Teil des Schemas! Somit können die Verben PrConCl oder PrAdCl sein.",
     "hiragana": "ーたり"
   },
   {
@@ -1043,7 +1079,7 @@
   },
   {
     "name": "to",
-    "type": "ObjVa",
+    "type": "ObVa",
     "chapter": "G45",
     "misc": "'to' kann das Valenzobject von V oder Zitate angeben. Z.B. bei 言う,考える, 思う,呼ぶ",
     "hiragana": "と"
@@ -1059,7 +1095,7 @@
     "name": "to",
     "type": "P",
     "chapter": "G29",
-    "translation": "N+to: Kann Ad mit bedeuten",
+    "translation": "N+to: Kann (Ad) 'mit Nomen' bedeuten",
     "hiragana": "と"
   },
   {
@@ -1084,6 +1120,12 @@
   },
   {
     "name": "totemo",
+    "type": "Ad",
+    "translation": "sehr",
+    "hiragana": "とても"
+  },
+  {
+    "name": "tottemo",
     "type": "Ad",
     "translation": "sehr",
     "hiragana": "とても"
@@ -1205,7 +1247,6 @@
   {
     "name": "yori",
     "hiragana": "より",
-    "type": "?/P",
     "translation": "als, im Vergleich zu",
     "chapter": "G15",
     "misc": "Steht vor einem Adjektiv und wird benutzt um zwei Dinge zu vergleichen"
@@ -1220,7 +1261,7 @@
   {
     "name": "yûmei na",
     "hiragana": "ゆうめいな",
-    "type": "A",
+    "type": "na-A",
     "translation": "bekannt, berühmt"
   },
   {
