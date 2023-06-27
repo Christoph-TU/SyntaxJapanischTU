@@ -17,7 +17,7 @@
 
 {% for entry in entries %}
 \needspace{3\baselineskip}
-\noindent\textbf{ {{-entry.name}}} {{entry.hiragana}} \textit{ {{-entry.type}}} {{entry.translation}} {{ "\\textbf{" ~ entry.chapter ~ "}" if entry.chapter }}
+\noindent\textbf{ {{-entry.name}}} ({{entry.hiragana}}) \textit{ {{-entry.type}}} {{entry.translation}} {{ "\\textbf{" ~ entry.chapter ~ "}" if entry.chapter }}
         {% if entry.get('kanji') or entry.get('code') or entry.get('misc') %}
                 \begin{adjustwidth}{0.5cm}{}
                 {% if entry.get('kanji') or entry.get('code') %}

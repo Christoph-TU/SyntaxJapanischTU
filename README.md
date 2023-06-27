@@ -2,6 +2,8 @@
 
 Dieses Wörterbuch sammelt häufig genutzte Wörter und Satzfragmente, die oftmals in Hiragana notiert werden. Es beinhaltet außerdem alle Partikel, um einen umfassenden Überblick zu bieten, welche Satzfunktionen sie jeweils einnehmen könnten.
 
+Eine fertig kompilierte PDF-Datei findet sich unter 'dictionary_output.pdf', falls man nur am Inhalt interessiert ist.
+
 Alle Angaben ohne Gewähr.
 
 ## Struktur

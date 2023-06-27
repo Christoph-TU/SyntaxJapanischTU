@@ -1,6 +1,7 @@
 [
   {
     "name": "aa",
+    "type": "Ad",
     "translation": "derartig, auf jene Weise",
     "chapter": "G06",
     "hiragana": "ああ"
@@ -34,6 +35,7 @@
   },
   {
     "name": "anna ni",
+    "type": "Ad",
     "translation": "in jenem Ausmaß/ hohen Grad, auf jene Weise",
     "chapter": "G06",
     "hiragana": "あんな に"
@@ -158,6 +160,13 @@
   {
     "name": "de",
     "type": "Ad",
+    "chapter": "G19",
+    "translation": "Counter+de: z.B. futari de=zu zweit",
+    "hiragana": "で"
+  },
+  {
+    "name": "de",
+    "type": "Ad",
     "chapter": "G29",
     "translation": "N+de: Verkehrsmittel benutzen",
     "hiragana": "で"
@@ -264,6 +273,7 @@
   },
   {
     "name": "donna ni",
+    "type": "Ad",
     "translation": "in welchem Ausmaß/ Grad, auf welche Weise",
     "chapter": "G06",
     "hiragana": "どんな に"
@@ -284,6 +294,7 @@
   },
   {
     "name": "doo",
+    "type": "Ad",
     "translation": "wie? auf welche Weise?",
     "chapter": "G06/G07",
     "hiragana": "どお"
@@ -297,9 +308,9 @@
   },
   {
     "name": "e",
-    "type": "P",
+    "type": "Ad",
     "chapter": "G29",
-    "translation": "Kann den Ort angeben",
+    "translation": "N+e: Kann den Ort angeben",
     "hiragana": "え"
   },
   {
@@ -319,9 +330,14 @@
   {
     "name": "ga",
     "hiragana": "が",
-    "type": "P",
+    "type": "Sub",
     "chapter": "G34",
     "misc": "N+ga: Kann das (betonte) Subjekt angeben, oder in Nebensätzen oder in einer K3 das normale Subjekt bestimmen"
+  },
+  {
+    "name": "ha",
+    "hiragana": "は",
+    "translation": "Wird oft als Partikel verwendet und als 'wa' gelesen->siehe 'wa'"
   },
   {
     "name": "hai",
@@ -339,9 +355,21 @@
   },
   {
     "name": "hodo",
+    "type": "Ad",
     "translation": "hodo+neg: A ist nicht so Adj wie B",
     "chapter": "G15",
+    "kanji": "程",
+    "code": "20507",
     "hiragana": "ほど"
+  },
+  {
+    "name": "hoo",
+    "type": "N",
+    "translation": "N+no hoo ga+Adj=Steigerung von Adj",
+    "chapter": "G15",
+    "kanji": "方",
+    "code": "80202",
+    "hiragana": "ほお"
   },
   {
     "name": "hoshii",
@@ -556,6 +584,7 @@
   },
   {
     "name": "konna ni",
+    "type": "Ad",
     "translation": "in diesem Ausmaß/ hohen Grad, auf diese Weise",
     "chapter": "G06",
     "hiragana": "こんな に"
@@ -569,6 +598,7 @@
   },
   {
     "name": "koo",
+    "type": "Ad",
     "translation": "derartig, derart",
     "chapter": "G06",
     "hiragana": "こお"
@@ -649,7 +679,7 @@
   },
   {
     "name": "mo",
-    "type": "P",
+    "type": "-",
     "translation": "auch",
     "chapter": "G23",
     "misc": "Kann wa/ga/wo ersetzen oder hinter anderen Partikeln stehen",
@@ -810,34 +840,42 @@
   {
     "name": "ni",
     "hiragana": "に",
-    "type": "P",
+    "type": "-",
     "chapter": "G05",
     "translation": "N+ni: Kann den 3. Fall angeben"
   },
   {
     "name": "ni",
     "hiragana": "に",
-    "type": "P",
+    "type": "Ad",
+    "chapter": "G19",
+    "translation": "Counter+ni: z.B. juuji ni=um 10 Uhr"
+  },
+  {
+    "name": "ni",
+    "hiragana": "に",
+    "type": "Ad",
     "chapter": "G17",
     "translation": "N+ni: Kann den Ort angeben"
   },
   {
     "name": "ni",
     "hiragana": "に",
-    "type": "P",
+    "type": "Ad",
     "chapter": "G29",
-    "translation": "N+ni: Kann den Zielort angeben"
+    "translation": "N+ni: Kann den Zielort angeben",
+    "misc": "Manche Vi verlangen ein Valenzobject z.B. nori: Vi+ni. Hier wird dieser Teil als ObVa analysiert"
   },
   {
     "name": "ni",
     "hiragana": "に",
-    "type": "P",
+    "type": "Ad",
     "translation": "N+ni: Kann die Zeit angeben"
   },
   {
     "name": "ni",
     "hiragana": "に",
-    "type": "P",
+    "type": "Ad",
     "chapter": "G12",
     "translation": "Na Adj+ni: Kann die Adverbiale Form von Na-Adjektiven angeben"
   },
@@ -864,7 +902,7 @@
   {
     "name": "no",
     "hiragana": "の",
-    "type": "P",
+    "type": "Nm",
     "chapter": "G05",
     "translation": "N+no: Kann den 2. Fall angeben"
   },
@@ -877,9 +915,7 @@
   },
   {
     "name": "no hoo ga",
-    "type": "N",
-    "translation": "N+no hoo ga+Adj=Steigerung",
-    "chapter": "G15",
+    "translation": "siehe 'hoo'/方",
     "hiragana": "の ほお が"
   },
   {
@@ -924,10 +960,14 @@
     "hiragana": "おもわれる"
   },
   {
-    "name": "onaju gurai",
-    "translation": "A und B sind gleich Adj",
+    "name": "onaji gurai",
+    "type": "Ad",
+    "translation": "N1 und N2 sind gleich Adj",
+    "misc": "N1 wa(Sub) N2 to(Ad) onaji gurai(Ad) Adj(Pr)",
+    "kanji": "同じ ぐらい",
+    "code": "30204",
     "chapter": "G15",
-    "hiragana": "おなじゅ ぐらい"
+    "hiragana": "おなじ ぐらい"
   },
   {
     "name": "-san",
@@ -977,6 +1017,7 @@
   },
   {
     "name": "sonna ni",
+    "type": "Ad",
     "translation": "in jenem Ausmaß/ hohen Grad, auf jene Weise",
     "chapter": "G06",
     "hiragana": "そんな に"
@@ -990,6 +1031,7 @@
   },
   {
     "name": "soo",
+    "type": "Ad",
     "translation": "so (geartet), in solcher Weise",
     "chapter": "G06",
     "hiragana": "そお"
@@ -1074,7 +1116,14 @@
     "type": "-",
     "chapter": "G23",
     "translation": "N+to+N...: N und N",
-    "misc": "Nimmt den Typ des Partikels an welches es ersetzt",
+    "misc": "Nimmt den Typ des Partikels an welches es ersetzt. \\\\Z.B. Denwa to(Sub) boorupen ga(Sub) aru(Pr)",
+    "hiragana": "と"
+  },
+  {
+    "name": "to",
+    "type": "Ad",
+    "chapter": "G29",
+    "translation": "N+to: Kann (Ad) 'mit Nomen' bedeuten",
     "hiragana": "と"
   },
   {
@@ -1089,13 +1138,6 @@
     "type": "P",
     "chapter": "G23",
     "translation": "Counter+to: Echtes Und",
-    "hiragana": "と"
-  },
-  {
-    "name": "to",
-    "type": "P",
-    "chapter": "G29",
-    "translation": "N+to: Kann (Ad) 'mit Nomen' bedeuten",
     "hiragana": "と"
   },
   {
@@ -1128,7 +1170,7 @@
     "name": "tottemo",
     "type": "Ad",
     "translation": "sehr",
-    "hiragana": "とても"
+    "hiragana": "とっても"
   },
   {
     "name": "tsu",
@@ -1145,22 +1187,22 @@
   {
     "name": "wa",
     "hiragana": "は",
-    "type": "P",
+    "type": "-",
+    "chapter": "G34",
+    "translation": "Kann nach Partikel kommen, oder sie ersetzen, um sie zu betonen."
+  },
+  {
+    "name": "wa",
+    "hiragana": "は",
+    "type": "Sub",
     "translation": "Kann das Subject angeben."
   },
   {
     "name": "wa",
     "hiragana": "は",
-    "type": "P",
+    "type": "Top",
     "chapter": "G13/G35",
     "translation": "Kann die Topic angeben."
-  },
-  {
-    "name": "wa",
-    "hiragana": "は",
-    "type": "P",
-    "chapter": "G34",
-    "translation": "Kann nach Partikel kommen, oder sie ersetzen, um sie zu betonen"
   },
   {
     "name": "-wa ikenai",
@@ -1202,22 +1244,23 @@
   {
     "name": "wo",
     "hiragana": "を",
-    "type": "P",
+    "type": "Ad",
     "chapter": "G29",
     "translation": "Kann bei Vi eine Ortsangabe sein"
   },
   {
     "name": "wo",
     "hiragana": "を",
-    "type": "P",
+    "type": "Obj",
     "chapter": "G26",
     "translation": "Kann den 4. Fall/das Object von Vt angeben"
   },
   {
     "name": "ya",
-    "type": "P",
+    "type": "-",
     "chapter": "G23",
-    "translation": "N+ya+N: Und",
+    "translation": "N1+ya+N2: unter anderem N1 und N2 ",
+    "misc": "Verhählt sich so wie 'to' bei der Aufzählung",
     "hiragana": "や"
   },
   {
@@ -1234,7 +1277,7 @@
     "chapter": "G47",
     "kanji": "呼ばれる",
     "code": "20305",
-    "misc": "Wichtig! yobu: K5 allerdings yobareru: 'K4 yobu' da passive",
+    "misc": "Wichtig! yobu: K5 allerdings yobareru: 'K4' da passive",
     "hiragana": "よばれる"
   },
   {
@@ -1266,6 +1309,7 @@
   },
   {
     "name": "-zutsu",
+    "type": "Nm",
     "chapter": "G23",
     "translation": "Counter+zutsu: je X Stück",
     "hiragana": "ーずつ"

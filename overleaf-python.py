@@ -20,7 +20,7 @@ for entry in sorted_entries:
     chapter_line = f"\\textbf{{{chapter}}}" if chapter else ""
     
     # Print formatted text
-    print(f"\\needspace{{3\\baselineskip}}\\noindent\\textbf{{{name}}} {hiragana} \\textit{{{type}}} {translation} {chapter_line}")
+    print(f"\\needspace{{3\\baselineskip}}\\noindent\\textbf{{{name}}} ({hiragana}) \\textit{{{type}}} {translation} {chapter_line}")
 
     # Check if any of these keys exist in the entry
     if entry.get('kanji') or entry.get('code') or entry.get('misc'):
